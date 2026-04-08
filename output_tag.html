@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Example:Basi Calculator Using<output></h2>
+        <form oninput="sum.value=parselnt(a.value)+parselnt(b.value)">
+            <input type="number"id="a"name="a"value="10">+
+            <input type="number"id="b"name="b"value="20">=
+            <output name="sum"for="a b">30</output>
+        </form>
+        <br><br><br>
+    
+        <h2>Another Example:BMI Calculator</h2>
+        <form oninput="bmi.value=(weight.value/(height.value/100)**2)).to Fixed(2)">
+            Weight(kg):<input type="number"id="weight"value="70"><br>
+            Height(cm):<input type="number"id="height"value="170"><br>
+             Your BMI:<output name="bmi"for="weight height">24.22</output>
+        </form>
+</body>
+</html>
